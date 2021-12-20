@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form class="my-form">
+        <div class="categories">
+            <h1>Fill Your Registration Form</h1>
+        </div>
+        <div id="box-model">
+            <div>
+                <label>First Name:</label>
+                <input type="text" name="name">
+            </div>
+            <br>
+        <div>
+            <label>Last Name:</label>
+            <input type="text" name="name">
+        </div>
+        <br>
+        <div>
+            <label>Middle Name:</label>
+            <input type="text" name="name">
+        </div>
+    <br>
+        <div>
+            <label>Email:</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label>Message:</label>
+            <textarea name="message"></textarea>
+        </div>
+        <div>
+            <h4>Gender</h4>
+            <input  type="radio" name="gender" value="male">
+            <label class ="radio_label">Male</label>
+            <input type="radio" name="gender" value="female">
+            <label class ="radio_label">Female</label>
+            <input type="radio" name="gender" value="other">
+            <label class ="radio_label">Other</label>
+        </div>
+       
+        <div>
+            <h4>What do you own?</h4>
+            <input type="checkbox" name="bike" value="bike">
+            <label>Bike</label>
+            <input type="checkbox" name="car" value="car">
+            <label>Car</label>
+            <input type="checkbox" name="boat" value="boat">
+            <label>Boat</label>
+        </div>
+        
+        <div>
+            <h4>Upload  Adhar Card:</h4>
+            <input type="file" name="filedetails">
+        </div>
+        <br>
+        <input type="submit" class="buttonsubmit" value="Submit">
+        <input type="submit" class="button" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
